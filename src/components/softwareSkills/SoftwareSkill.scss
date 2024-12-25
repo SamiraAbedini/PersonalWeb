@@ -9,6 +9,14 @@
   text-align: center;
 }
 
+.software-skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain; /* Ensures the image is not distorted */
+  margin-bottom: 5px;
+}
+
+
 .software-skill-inline {
   display: inline-block;
   margin-right: 20px;

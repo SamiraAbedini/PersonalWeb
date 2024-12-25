@@ -43,13 +43,13 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 38px;
   line-height: 1.1;
   color: $textColor !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 18px;
   line-height: 40px;
 }
 
@@ -115,9 +115,23 @@
   .greeting-main {
     display: block;
   }
+
   .greeting-image-div {
-    height: 256px;
+    position: relative; /* Enable positioning for child elements */
+    display: flex;
+    justify-content: center; /* Center the Lottie horizontally */
+    align-items: center; /* Center the Lottie vertically */
   }
+  
+  .greeting-image-div > .lottie {
+    width: 10%; /* Adjust width as needed */
+    max-width: 1px; /* Optional: Set a maximum width */
+    position: relative; /* Relative to .greeting-image-div */
+    top: -200px; /* Move the Lottie upwards (negative value) */
+    left: 0; /* Adjust horizontal position if needed */
+    transform: translate(-10px, -20px); /* Fine-tune position */
+  }
+  
 }
 
 @media (max-width: 320px) {

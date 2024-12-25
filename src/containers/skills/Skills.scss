@@ -20,6 +20,23 @@
   height: auto;
 }
 
+.software-skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.software-skill-icon {
+  text-align: center;
+  max-width: 1000px; /* Adjust as needed */
+}
+
+.software-skill-icon img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
