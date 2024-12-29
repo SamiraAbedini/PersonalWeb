@@ -192,14 +192,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Research Collabration",
+      role: "Research Assistant",
       company: "Cognitive Neuroscience Lab",
       companylogo: require("./assets/images/cog.png"),
       date: "December 2023 – September 2024",
       desc: "Tabriz University, Tabriz, Iran",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Conducted research on Alzheimer's disease prediction in patients' offspring",
+        "Preprocessed EEG medical data and developed a comprehensive dataset",
+        "Performed statistical analyses to identify key patterns in the data",
+        "Built and evaluated machine learning models for predictive analysis",
+        "Participated in team meetings and delivered weekly presentations"
       ]
     },
     {
