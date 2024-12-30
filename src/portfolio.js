@@ -158,7 +158,7 @@ const educationInfo = {
       schoolName: "University of Tabriz",
       logo: require("./assets/images/logiTU.png"),
       subHeader: "Bachelor of Science in Biomedical Engineering, Tabriz, Iran",
-      duration: "October 2024 - Septemeber 2021",
+      duration: "October 2017 - Septemeber 2021",
       desc: "Ranked top 10% in the program. Selected Courses: Medical Information Technology, Computer Programming, Mathematics 1 and 2, Biological and Computational Intelligence, Biostatistics, Biophysics, Biochemistry, Medical Physics",
       descBullets: ["Final Project: Designing a Digital Feedforward Dynamic Range Compressor for hearing aids (Grade achieved: 20/20)"]
     }
@@ -489,7 +489,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "samira_abedini", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
