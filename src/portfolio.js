@@ -133,6 +133,16 @@ softwareSkills: [
   },
 
   {
+    skillName: "PyTorch",
+    iconPath: "/assets/icons/PyTorch.png" // Generic table icon for dataframes
+  },
+
+  {
+    skillName: "MongoDB",
+    iconPath: "/assets/icons/mongodb.png" // Generic table icon for dataframes
+  },
+
+  {
     skillName: "MATLAB",
     iconPath: "/assets/icons/MATLAB.png" // Generic table icon for dataframes
   },
@@ -159,7 +169,7 @@ const educationInfo = {
       logo: require("./assets/images/logiTU.png"),
       subHeader: "Bachelor of Science in Biomedical Engineering, Tabriz, Iran",
       duration: "October 2017 - Septemeber 2021",
-      desc: "Ranked top 10% in the program. Selected Courses: Medical Information Technology, Computer Programming, Mathematics 1 and 2, Biological and Computational Intelligence, Biostatistics, Biophysics, Biochemistry, Medical Physics",
+      desc: "Selected Courses: Medical Information Technology, Computer Programming, Mathematics 1 and 2, Biological and Computational Intelligence, Biostatistics, Biophysics, Biochemistry, Medical Physics",
       descBullets: ["Final Project: Designing a Digital Feedforward Dynamic Range Compressor for hearing aids (Grade achieved: 20/20)"]
     }
   ]
@@ -195,7 +205,7 @@ const workExperiences = {
       role: "Research Assistant",
       company: "Cognitive Neuroscience Lab",
       companylogo: require("./assets/images/cog.png"),
-      date: "December 2023 – September 2024",
+      date: "Dec 2023 – Sep 2024",
       desc: "Tabriz University, Tabriz, Iran",
       descBullets: [
         "Conducted research on Alzheimer's disease prediction in patients' offspring",
@@ -209,22 +219,37 @@ const workExperiences = {
       role: "Biomedical Engineer",
       company: "BMG Company",
       companylogo: require("./assets/images/bmg.png"),
-      date: "December 2020 – January 2023",
-      desc: "R&D team, BMG Company, Tabriz, Iran",
+      date: "Dec 2020 – Jan 2023",
+      desc: "BMG Company, Tabriz, Iran",
       descBullets: [
-        "Analyzed medical data (ECG, EEG, and MRI data) using machine learning techniques",
-        "Programmed touch-screen LCDs for medical devices"
+        "Utilized machine learning techniques to analyze medical data, including ECG, EEG, and MRI, to derive meaningful insights and improve diagnostics.",
+        "Developed a piezoelectric energy harvesting system for leadless pacemakers, transforming cardiac motion into sustainable electrical energy.",
+        "Developed and programmed touch-screen interfaces for medical devices, optimizing usability and performance.",
+        "Collaborated with a multidisciplinary team to innovate solutions for healthcare technology challenges."
       ]
     },
     {
       role: "Mathematics Teacher",
       company: "Hallaj Mathematics Academy",
       companylogo: require("./assets/images/hallaj.png"),
-      date: "April 2020 – September 2023",
+      date: "Apr 2020 – Sep 2023",
       desc: "Tabriz, Iran",
       descBullets: [
-        "Taught mathematics to high school students preparing for the university entrance exam",
-        "Organized problem-solving sessions, administered exams, and assigned homework"
+        "Guided high school students in mastering mathematics concepts to excel in university entrance exams.",
+        "Designed and conducted problem-solving sessions to enhance critical thinking and analytical skills.",
+        "Evaluated students' progress through customized exams and structured assignments, fostering improved academic performance.",
+      ]
+    },
+
+    {
+      role: "Bioelectric Systems Intern",
+      company: "IMATAK company",
+      companylogo: require("./assets/images/imatak.png"),
+      date: "Jun 2020 – Sep 2020",
+      desc: "Tabriz, Iran",
+      descBullets: [
+        "Assisted in programming microcontrollers using C programming language for bioelectric applications, ensuring accurate device operation and efficiency.",
+        " Conducted data analysis and troubleshooting to enhance the performance of bioelectric systems."
       ]
     }
     
@@ -300,8 +325,8 @@ const achievementSection = {
     {
       title: "Precision Medicine",
       subtitle:
-        "Coursera",
-      image: require("./assets/images/UniversityofGeneva.png"),
+        "Université de Genève",
+      image: require("./assets/images/coursera.png"),
       imageAlt: "AI",
       footerLink: [
         {
@@ -317,8 +342,8 @@ const achievementSection = {
     {
       title: "Python for Genomic Data Science",
       subtitle:
-        "Coursera: Genomic Data Science Specialization",
-      image: require("./assets/images/JohnsHopkinsUniversity.png"),
+        "Johns Hopkins University: Genomic Data Science Specialization",
+      image: require("./assets/images/coursera.png"),
       imageAlt: "AI",
       footerLink: [
         {
@@ -335,8 +360,8 @@ const achievementSection = {
     {
       title: "Introduction to Genomic Technologies",
       subtitle:
-        "Coursera: Genomic Data Science Specialization",
-      image: require("./assets/images/JohnsHopkinsUniversity.png"),
+        "Johns Hopkins University: Genomic Data Science Specialization",
+      image: require("./assets/images/coursera.png"),
       imageAlt: "AI",
       footerLink: [
         {
@@ -353,8 +378,8 @@ const achievementSection = {
     {
       title: "AI for Medical Diagnosis",
       subtitle:
-        "Coursera: AI for Medicine Specialization",
-      image: require("./assets/images/deep.webp"),
+        "DeepLearning.AI: AI for Medicine Specialization",
+      image: require("./assets/images/coursera.png"),
       imageAlt: "AI",
       footerLink: [
         {
@@ -385,8 +410,8 @@ const achievementSection = {
     {
       title: "Machine Learning Specialization",
       subtitle:
-        "Coursera",
-      image: require("./assets/images/deep.webp"),
+        "DeepLearning.AI",
+      image: require("./assets/images/coursera.png"),
       imageAlt: "AI",
       footerLink: [
         {
